@@ -36,6 +36,17 @@ See `runbook.md` for step-by-step incident response procedures.
 - Manual cleanup after testing
 - No always-on paid services
 
+## Purpose / What it Demonstrates
+
+This project demonstrates:
+
+- Designing AWS infrastructure with minimal resources (EC2, Security Groups, IAM Roles)
+- Implementing monitoring and alerting using CloudWatch
+- Simulating incidents (stopping EC2, breaking SSH, CPU spike)
+- Executing recovery workflows and incident response
+- Documenting operational processes for reproducibility
+
+
 ## Cleanup
 Terminate EC2 instance after testing.
 Delete CloudWatch alarms and logs.
